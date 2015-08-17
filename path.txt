@@ -1,1 +1,1 @@
-/Users/jgs/google_drive/bin/degamification
+/google_drive/bin/degamification
