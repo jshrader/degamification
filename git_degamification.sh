@@ -10,4 +10,4 @@ file="$file_path/growth.txt"
 
 echo "A new line on $timestamp" >> $file
 $file_path/git_commit.sh $file_path/path.txt
-git push -u origin master
+/usr/bin/git --git-dir=$file_path/.git push -u origin master
