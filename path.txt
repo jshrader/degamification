@@ -1,1 +1,1 @@
-/bin/degamification
+bin/degamification
