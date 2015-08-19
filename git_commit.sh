@@ -11,9 +11,9 @@ do
     echo "Committing $f"
     #touch $f/test.txt
     cd $f    
-    git add *
+    /usr/bin/git add *
     timestamp=$(date +%Y-%m-%d)
     echo "$timestamp"
-    git commit -m "Regular commit at $timestamp"
+    /usr/bin/git commit -m "Regular commit at $timestamp"
 done < $1
 

@@ -1,5 +1,9 @@
 #!/bin/bash
-bin_path="/Users/jgs/google_drive/bin"
+if [ $HOME = "/Users/jgs" ]; then
+    bin_path="$HOME/google_drive/bin"
+else
+    bin_path="$HOME/bin"
+fi
 timestamp=$(date +%Y-%m-%d)
 file_path="$bin_path/degamification"
 file="$file_path/growth.txt"
