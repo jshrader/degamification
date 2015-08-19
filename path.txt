@@ -1,1 +1,1 @@
-/google_drive/bin/degamification
+/bin/degamification
