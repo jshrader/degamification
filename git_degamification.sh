@@ -9,5 +9,8 @@ file_path="$bin_path/degamification"
 file="$file_path/growth.txt"
 
 echo "A new line on $timestamp" >> $file
-$file_path/git_commit.sh $file_path/path.txt
+cd $file_path
+/usr/bin/git add growth.txt
+timestamp=$(date +%Y-%m-%d)
+/usr/bin/git commit -m "Regular commit at $timestamp"
 # /usr/bin/git --git-dir=$file_path/.git push -u origin master
