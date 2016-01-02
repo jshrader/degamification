@@ -144,3 +144,4 @@ A new line on 2015-12-29
 A new line on 2015-12-30
 A new line on 2015-12-31
 A new line on 2016-01-01
+A new line on 2016-01-02
