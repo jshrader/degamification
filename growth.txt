@@ -148,3 +148,4 @@ A new line on 2016-01-02
 A new line on 2016-01-03
 A new line on 2016-01-04
 A new line on 2016-01-05
+A new line on 2016-01-06
