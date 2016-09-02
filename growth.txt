@@ -388,3 +388,4 @@ A new line on 2016-08-29
 A new line on 2016-08-30
 A new line on 2016-08-31
 A new line on 2016-09-01
+A new line on 2016-09-02
