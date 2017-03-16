@@ -2,7 +2,7 @@
 if [ $HOME = "/Users/jgs" ]; then
     bin_path="$HOME/google_drive/bin"
 else
-    bin_path="$HOME/bin"
+    bin_path="$HOME/code"
 fi
 timestamp=$(date +%Y-%m-%d)
 file_path="$bin_path/degamification"
@@ -13,4 +13,4 @@ cd $file_path
 /usr/bin/git add growth.txt
 timestamp=$(date +%Y-%m-%d)
 /usr/bin/git commit -m "Regular commit at $timestamp"
-# /usr/bin/git --git-dir=$file_path/.git push -u origin master
+#/usr/bin/git push -u origin master
